@@ -1,0 +1,309 @@
+*{
+    font-family: cursive;
+}
+
+/*===================Nav Configuration===========================*/
+nav{
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+
+}
+
+.profile{
+    color: #ffffff;
+    flex: 0.5;
+    text-align: end;
+    font-size: 20px;
+}
+
+div.options{
+    flex: 1;
+}
+
+.options>ul{
+    color: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px
+}
+
+.prof{
+color: white;
+}
+
+.options>ul>li{
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+    font-size: 17px;
+    list-style: none;
+}
+
+div.singbutton{
+flex: 1;
+text-align: center;
+}
+
+div.singbutton>button{
+    background-color: rgb(23, 162, 184);
+    color: white;
+    border: 1px solid whitesmoke;
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+}
+
+/*===================Main items or boxes===========================*/
+
+.body{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 170px;
+}
+
+.leftbody {
+    display: flex;
+    flex-direction: column;
+    width: 800px
+}
+
+.rightbody {
+    display: flex;
+    flex-direction: column;
+    width: 400px
+}
+
+.mainprofile{
+        border: 3px solid rgb(210, 210, 210);
+        margin:20px;
+        height: 450px;
+        position: relative;
+}
+
+.education{
+    border: 3px solid rgb(210, 210, 210);
+    margin: 20px;
+    height: 250px;
+}
+
+.connectionR{
+    border: 3px solid rgb(210, 210, 210);
+    margin: 20px;
+    height: 250px;
+}
+
+.yourConnect{
+    border: 3px solid rgb(210, 210, 210);
+    margin: 20px;
+    height: 450px;
+}
+
+/*===================Main profile===========================*/
+
+.portrait{
+    background-color: rgb(23, 162, 184);
+    height: 140px;
+    width: 100%;
+    margin-bottom: 75px;
+}
+
+.janed{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    height: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+div.mainprofile>h1{
+    margin: 0px;
+    margin-left: 50px;
+    font-size: 50px;
+    
+}
+
+.profsmallpic{
+    height: 23px;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.location>h2{
+    margin-left: 10px;
+}
+
+.habilities{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+}
+
+.habilities>li{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+#noborder{
+    border: none;
+}
+
+.infoprof>p{
+    margin-left: 50px;
+}
+
+.editp{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.editp>a{
+    margin-left: 10px;
+}
+
+/*===================Education Part===========================*/
+
+div.educ-head{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    padding-left: 30px;
+}
+
+div.education>h1{
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+div.education>h2{
+    font-size: 24px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: grey;
+}
+div.education>p{
+    font-size: 26px;
+    margin: 0;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+
+/*===================Conection Request Part===========================*/
+
+.connec-head{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    display: flex;
+    font-size: 12px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.connec-head>h1{
+    margin: 0;
+}
+
+.counter{
+    border: 3px solid rgb(153, 153, 153);
+    background-color: rgb(153, 153, 153);
+    border-radius: 50%;
+    padding: 0px 6px;
+}
+
+.ppsmall {
+    height: 45px;
+    border-radius: 50%;
+
+}
+
+.accept-deny {
+    height: 45px;
+    border-radius: 50%;
+    
+}
+
+.request{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.request>p{
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/*===================Your Connections Part===========================*/
+
+.connection{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+
+}
+
+.yourConnect{
+    display: flex;
+    flex-direction: column;
+}
+
+.connection>p{
+    margin: 17px;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+
+.ppsmall2 {
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+}
+
+.viewmore{
+    border: 3px solid rgb(210, 210, 210);;
+    padding: 10px;
+    text-align: start;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+#viewmore{
+    color: rgb(12, 83, 148);
+}
+
+.edit{
+    color: rgb(39, 60, 177);
+    text-indent: 30px;
+    text-decoration: underline;
+    font-size: 20px;
+}

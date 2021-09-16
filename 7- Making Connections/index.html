@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Profile Page</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./CSS/normalize.css"/>
+        <link rel="stylesheet" href="./CSS/styles.css"/>
+    </head>
+
+    <body>
+
+    <nav>
+        <div class="profile">
+            <h1>Profile</h1>
+        </div>
+        
+        <div class="options">
+            <ul>
+                <li>Home</li>
+                <li class="prof">My Profile</li>
+                <li>Find Connections</li>
+            </ul>
+        </div>
+
+            <div class="singbutton">
+            <button type="button">
+                Sing Out
+            </button>
+            </div>
+
+    </nav>
+
+    <div class="body">
+        
+        <div class="leftbody">
+            
+            <div class="mainprofile">
+                
+                <div class="portrait"></div>
+                
+                <img class="janed" src="./IMG/Avatar/jane-m.jpg"/>
+                
+                <h1 id="name">Jane Doe</h1>
+                
+                <div class="location">
+                    <img class="mapmark profsmallpic" src="./IMG/Icons/map-marker.png"/>
+                    <h2>Seattle</h2>
+                </div>
+                
+                <div class="infoprof">
+                    <ul class="habilities">
+                        <li>Developer</li>
+                        <li>Engineer</li>
+                        <li id="noborder">Problem Solver</li>
+                    </ul>
+                    <p>Master of shadows and the Internet!</p>
+                </div>
+
+                <div class="editp">
+                    <img class="gear profsmallpic" src="./IMG/Icons/gear.png"/>
+                    <a class="edit">
+                        edit profile
+                    </a>
+                </div>
+            
+            </div> <!--Main profile ends here-->
+            
+            <div class="education">
+                
+                <div class="educ-head">Education</div>
+                <h1>Coding Dojo - Full Stack Bootcamp</h1>
+                <h2>Dec 2019 - Mar 2020</h2>
+                <p>Triple black belt in Python, MERN, and C#</p>
+
+            </div> <!--Education ends here-->
+        </div> <!--Left Body ends here-->
+    
+        <div class="rightbody">
+            <div class="connectionR">
+                
+                <div class="connec-head">
+                    <h1 class="counter">2</h1>
+                    <h1>Connection Requests</h1>
+                </div>
+                
+                <div class="request" id="request1">
+                    <img class="ppsmall" src="./IMG/Avatar/todd-s.jpg"/>
+                    <p>Todd E</p>
+                    <img class="accept-deny" id="accept-deny1" src="./IMG/Icons/accept-circle.png"/>
+                    <img class="accept-deny" id="accept-deny1" src="./IMG/Icons/close-circle.png"/>
+                </div>
+                <div class="request" id="request2">
+                    <img class="ppsmall" src="./IMG/Avatar/phil-s.jpg"/>
+                    <p>Phil K</p>
+                    <img class="accept-deny" id="accept-deny2" src="./IMG/Icons/accept-circle.png"/>
+                    <img class="accept-deny" id="accept-deny2" src="./IMG/Icons/close-circle.png"/>
+                </div>
+
+            </div> <!--Connection Request ends here-->
+            
+            <div class="yourConnect">
+                
+                <div class="connec-head">
+                    <h1 class="counter">418</h1>
+                    <h1>Your Connections</h1>
+                </div>
+
+                <div class="connection">
+                    <img class="ppsmall2" src=".//IMG/Avatar/adrien-s.jpg"/>
+                    <p>Adrien D</p>
+                </div>
+                <div class="connection">
+                    <img class="ppsmall2" src="./IMG/Avatar/anne-s.jpg"/>
+                    <p>Anne J</p>
+                </div>
+                <div class="connection">
+                    <img class="ppsmall2" src="./IMG/Avatar/alayne-s.jpg"/>
+                    <p>Alayne T</p>
+                </div>
+                <div class="connection">
+                    <img class="ppsmall2" src="./IMG/Avatar/arry-s.jpg"/>
+                    <p>Arry Y</p>
+                </div>
+
+                <div class="viewmore">
+                    <a id="viewmore" href="https://www.youtube.com/">
+                    View More
+                    </a>
+                </div>
+                
+
+            </div> <!--Your Connections here-->
+        </div> <!--Right Body ends here-->
+
+    </div> <!--Body ends here-->
+    <script src="./JS/index.js"></script>
+    </body>
+
+</html>
